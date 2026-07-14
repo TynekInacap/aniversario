@@ -5,6 +5,7 @@ import { Reasons } from "./components/Reasons";
 import { OurSong } from "./components/OurSong";
 import { MemoryGame } from "./components/MemoryGame";
 import { LoveQuiz } from "./components/LoveQuiz";
+import { LoveScramble } from "./components/LoveScramble";
 import { LoveLetter } from "./components/LoveLetter";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <OurSong />
       <MemoryGame />
       <LoveQuiz />
+      <LoveScramble />
       <LoveLetter />
     </div>
   );
